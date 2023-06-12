@@ -1,18 +1,22 @@
 {
-    "name": "luoxingchang/untitled",
-    "autoload": {
-        "psr-4": {
-            "Luoxingchang\\": "src/",
-            "Luoxingchang\\Untitled\\": "src/app"
-        }
+  "name": "luoxingchang/untitled",
+  "autoload": {
+    "psr-4": {
+      "Luoxingchang\\": "src/",
+      "Luoxingchang\\Untitled\\": "src/app"
     },
-    "authors": [
-        {
-            "name": "luoxingchang",
-            "email": "desireluo@outlook.com"
-        }
-    ],
-    "require": {
-      "ext-xdebug": "*"
+    "classmap": [
+      "classMp/GoodCat.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "luoxingchang",
+      "email": "desireluo@outlook.com"
     }
+  ],
+  "require": {
+    "ext-xdebug": "*",
+    "ext-redis": "*"
+  }
 }

@@ -1,0 +1,22 @@
+{
+    "name": "luoxingchang/untitled",
+    "autoload": {
+        "psr-4": {
+            "Luoxingchang\\": "src/",
+            "Luoxingchang\\Untitled\\": "src/app"
+        },
+        "files":["extend/autoload.php"],
+        "classmap": [
+            "classMp/GoodCat.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "luoxingchang",
+            "email": "desireluo@outlook.com"
+        }
+    ],
+    "require": {
+      "ext-xdebug": "*"
+    }
+}

@@ -1,28 +1,34 @@
 <?php
 
-$arrays = array([
-    'id' => 1,
-    'parent_id' => 0,
-    'name' => 'A',
-], [
-    'id' => 2,
-    'parent_id' => 1,
-    'name' => 'A-1'
-], [
-    'id' => 3,
-    'parent_id' => 2,
-    'name' => 'A-1-1'
+$arrays = [
+    [
+        'id' => 1,
+        'parent_id' => 0,
+        'name' => 'A',
+    ],
+    [
+        'id' => 2,
+        'parent_id' => 1,
+        'name' => 'A-1'
+    ],
+    [
+        'id' => 3,
+        'parent_id' => 2,
+        'name' => 'A-1-1'
 
-], [
-    'id' => 4,
-    'parent_id' => 0,
-    'name' => 'B'
-], [
-    'id' => 5,
-    'parent_id' => 0,
-    'name' => 'C'
+    ],
+    [
+        'id' => 4,
+        'parent_id' => 0,
+        'name' => 'B'
+    ],
+    [
+        'id' => 5,
+        'parent_id' => 0,
+        'name' => 'C'
 
-]);
+    ]
+];
 var_export(tree(0, $arrays));
 
 
